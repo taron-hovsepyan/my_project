@@ -5,7 +5,7 @@ import { observer } from "mobx-react-lite";
 
 const Count = observer(() =>{
     const { count, increment, decrement, getTodo, todos } = countStore;
-
+    console.log('sadas');
     useEffect(()=>{
         getTodo()
     }, [])
